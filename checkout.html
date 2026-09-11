@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>---------   - Checkout</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="simple-header"> 
+    <a class="We Provide the Best Goods at The Best Price" href="index.html">Solomon's <span>INC</span></a>
+    <span class="checkout-title">Secure Checkout 🔒</span>
+
+   <nav class="nav">
+   <a href="index.html">☰ All</a>
+      <a href="electronics.html">products</a>
+    <a href="customer-service.html">Customer Service</a>
+    <a href="login.html">Sign In</a>
+  <a href="cart.html">cart</a>
+  </nav>
+  
+  </header>
+  <main class="page checkout-page">
+    <h1>Checkout</h1>
+    <div class="checkout-layout">
+      <form class="checkout-form" id="checkoutForm">
+        <section><h2>Delivery Form</h2>
+          <input placeholder="Full name" required>
+          <input placeholder="Address" required>
+          <input placeholder="Phone number" required>
+        </section>
+        <section><h2> Payment method</h2><label class="radio">
+          <input type="radio" name="payment" value="card" checked> Card payment</label>
+          <label class="radio">
+            <input type="radio" name="payment" value="cash"> Cash on delivery</label>
+            <p class="small">Demo checkout: no real payment is processed.</p></section>
+        <button class="btn full" type="submit">Place order</button>
+        <div id="orderMessage" class="message"></div>
+      </form>
+          </div>
+  </main>
+  </body>
+</html>
